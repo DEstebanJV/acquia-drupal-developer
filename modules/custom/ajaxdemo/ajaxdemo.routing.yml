@@ -1,0 +1,7 @@
+ajaxdemo.form:
+  path: '/ajaxdemo'
+  defaults:
+    _title: 'AJAX Demo Form'
+    _form: '\Drupal\ajaxdemo\Form\AjaxDemoForm'
+  requirements:
+    _permission: 'access content'

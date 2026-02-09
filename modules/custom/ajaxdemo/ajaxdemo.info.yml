@@ -1,0 +1,5 @@
+name: 'AJAX Demo'
+type: module
+description: 'Ejemplo de formulario con #ajax.'
+core_version_requirement: ^11
+package: Custom
