@@ -1,5 +1,5 @@
 name: 'AJAX Demo'
 type: module
-description: 'Ejemplo de formulario con #ajax.'
+description: 'Registro de usuarios con AJAX.'
 core_version_requirement: ^11
 package: Custom

@@ -1,7 +1,7 @@
-ajaxdemo.form:
-  path: '/ajaxdemo'
+ajaxdemo.register:
+  path: '/register-ajaxdemo'
   defaults:
-    _title: 'AJAX Demo Form'
-    _form: '\Drupal\ajaxdemo\Form\AjaxDemoForm'
+    _title: 'Registro'
+    _form: '\Drupal\ajaxdemo\Form\RegisterAjaxForm'
   requirements:
     _permission: 'access content'
