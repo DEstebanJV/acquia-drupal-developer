@@ -1,0 +1,32 @@
+uuid: 562c8308-b897-445b-a8e3-7f02eddc7650
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.slider
+    - field.field.block_content.slider.field_description
+    - field.field.block_content.slider.field_image
+  module:
+    - text
+id: block_content.slider.default
+targetEntityType: block_content
+bundle: slider
+mode: default
+content:
+  field_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_image:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

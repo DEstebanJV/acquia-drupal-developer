@@ -1,0 +1,8 @@
+uuid: eb1659c0-9eb2-47e9-8298-241da78fc8bc
+langcode: en
+status: true
+dependencies: {  }
+id: slider
+label: slider
+revision: false
+description: 'Block with image '

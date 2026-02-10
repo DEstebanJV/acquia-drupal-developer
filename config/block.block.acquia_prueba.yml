@@ -1,0 +1,23 @@
+uuid: 88ff77da-2ac0-4d56-8310-0eb5bfe0ece0
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:slider:26a098ec-dd60-4e10-b107-0968cbf1ca86'
+  module:
+    - block_content
+  theme:
+    - acquia
+id: acquia_prueba
+theme: acquia
+region: footer_bottom
+weight: 0
+provider: null
+plugin: 'block_content:26a098ec-dd60-4e10-b107-0968cbf1ca86'
+settings:
+  id: 'block_content:26a098ec-dd60-4e10-b107-0968cbf1ca86'
+  label: Prueba
+  label_display: visible
+  provider: block_content
+  view_mode: full
+visibility: {  }

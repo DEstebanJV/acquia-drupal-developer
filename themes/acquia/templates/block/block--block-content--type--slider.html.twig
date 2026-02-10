@@ -1,0 +1,26 @@
+{# themes/custom/TU_TEMA/templates/block/block--block-content--type--slider.html.twig #}
+
+<div{{ attributes.addClass('slider-block') }}>
+{# {{ dump(_context|keys) }} Muestra las variables del contexto #}
+
+  {# Título del bloque (si está habilitado en la UI) #}
+  {{ title_prefix }}
+  {% if label %}
+    <h2{{ title_attributes }} style="text-align: center; color: white;">{{ label }}</h2>
+  {% endif %}
+  {{ title_suffix }}
+
+  <div class="slider-block__inner" style="display: flex; justify-content: center;">
+    {% if content.field_image %}
+      <div class="slider-block__image">
+        {{ content.field_image }}
+      </div>
+    {% endif %}
+
+    {% if content.field_description %}
+      <div class="slider-block__description">
+        {{ content.field_description }}
+      </div>
+    {% endif %}
+  </div>
+</div>
