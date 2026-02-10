@@ -54,3 +54,4 @@ sites/simpletest
 /robots.txt
 /update.php
 /core/
+/modules/contrib/

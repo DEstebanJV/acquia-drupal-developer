@@ -1,0 +1,23 @@
+uuid: 380a46ee-f70c-4c14-8989-a567e4eaeb32
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - acquia
+_core:
+  default_config_hash: pbbed0hdqGDF-_QWVVTWRAwgDIotFuAvWH5mWUZu0fA
+id: acquia_search_form_wide
+theme: acquia
+region: secondary_menu
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: null
+visibility: {  }

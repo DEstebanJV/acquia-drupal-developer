@@ -1,0 +1,22 @@
+uuid: 22843bbd-a6cc-43b0-99b1-218495457cd4
+langcode: en
+status: true
+dependencies:
+  theme:
+    - acquia
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: acquia_primary_local_tasks
+theme: acquia
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

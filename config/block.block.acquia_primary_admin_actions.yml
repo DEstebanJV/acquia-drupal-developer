@@ -1,0 +1,20 @@
+uuid: 240fc7f8-2b68-4075-8d43-c7242b97a8aa
+langcode: en
+status: true
+dependencies:
+  theme:
+    - acquia
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: acquia_primary_admin_actions
+theme: acquia
+region: highlighted
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: b670115b-690e-4f0d-9fd1-f108aab8a309
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - acquia
+_core:
+  default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
+id: acquia_messages
+theme: acquia
+region: highlighted
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

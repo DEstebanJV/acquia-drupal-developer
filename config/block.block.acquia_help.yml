@@ -1,0 +1,22 @@
+uuid: d2d397c2-4f42-430a-a767-f192e67cf8f1
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - acquia
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: acquia_help
+theme: acquia
+region: header
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

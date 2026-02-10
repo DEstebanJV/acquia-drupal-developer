@@ -1,0 +1,22 @@
+uuid: 3e9c930b-be08-42fe-9dbf-0f33e872cd3b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - acquia
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: acquia_breadcrumbs
+theme: acquia
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }
