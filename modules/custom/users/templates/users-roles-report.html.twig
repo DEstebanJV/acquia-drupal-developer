@@ -1,0 +1,40 @@
+{#
+  Variables:
+  - users: [
+      { uid, name, mail, roles: [] },
+      ...
+    ]
+#}
+
+<h2>Usuarios y roles</h2>
+
+{% if users is empty %}
+  <p>No se encontraron usuarios.</p>
+{% else %}
+  <table>
+    <thead>
+      <tr>
+        <th>UID</th>
+        <th>Usuario</th>
+        <th>Email</th>
+        <th>Roles</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for u in users %}
+        <tr>
+          <td>{{ u.uid }}</td>
+          <td>{{ u.name }}</td>
+          <td>{{ u.mail }}</td>
+          <td>
+            {% if u.roles is not empty %}
+              {{ u.roles|join(', ') }}
+            {% else %}
+              <em>Sin roles</em>
+            {% endif %}
+          </td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endif %}

@@ -1,0 +1,15 @@
+users.roles:
+  path: '/users/roles'
+  defaults:
+    _controller: '\Drupal\users\Controller\UserRolesController::list'
+    _title: 'Roles de usuarios' 
+  requirements:
+    _permission: 'access content'
+  
+users.roles.entity:
+  path: '/users/roles/entity'
+  defaults:
+    _controller: '\Drupal\users\Controller\UserRolesEntityController::list'
+    _title: 'Roles de usuarios (entity)' 
+  requirements:
+    _permission: 'access content'

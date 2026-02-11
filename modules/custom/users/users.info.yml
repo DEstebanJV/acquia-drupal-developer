@@ -1,0 +1,5 @@
+name: 'users'
+type: module
+description: 'Lista de usuarios que se encuentran en el sistema'
+package: Custom
+core_version_requirement: ^10 || ^11

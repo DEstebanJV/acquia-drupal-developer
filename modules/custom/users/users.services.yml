@@ -1,0 +1,7 @@
+services:
+  users.report:
+    class: Drupal\users\Services\UserRolesReport
+    arguments: ['@database']
+  users.entity_roles_report:
+    class: Drupal\users\Services\UsersRolesEntityReport
+    arguments: ['@entity_type.manager']

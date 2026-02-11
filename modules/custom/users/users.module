@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function users_theme($existing, $type, $theme, $path) {
+  return [
+    'users_roles_report' => [
+      'variables' => [
+        'users' => [],
+      ],
+      'template' => 'users-roles-report',
+    ],
+  ];
+}
