@@ -1,0 +1,4 @@
+services:
+  ebf_lazy_user_greeting.lazy_builder:
+    class: Drupal\ebf_lazy_user_greeting\LazyBuilders\UserGreetingLazyBuilder
+    arguments: ['@current_user', '@entity_type.manager']

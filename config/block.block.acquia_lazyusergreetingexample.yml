@@ -1,0 +1,20 @@
+uuid: 35dc1c3a-69a1-4e47-8866-5c7c2e61aa15
+langcode: en
+status: true
+dependencies:
+  module:
+    - ebf_lazy_user_greeting
+  theme:
+    - acquia
+id: acquia_lazyusergreetingexample
+theme: acquia
+region: highlighted
+weight: 0
+provider: null
+plugin: ebf_lazy_user_greeting_block
+settings:
+  id: ebf_lazy_user_greeting_block
+  label: 'Lazy user greeting (example)'
+  label_display: visible
+  provider: ebf_lazy_user_greeting
+visibility: {  }

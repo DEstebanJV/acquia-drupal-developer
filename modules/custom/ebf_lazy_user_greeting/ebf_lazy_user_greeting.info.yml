@@ -1,0 +1,5 @@
+name: 'EBF Lazy User Greeting'
+type: module
+description: 'Ejemplo real de #lazy_builder: saludo personalizado sin romper caché de página.'
+core_version_requirement: ^10 || ^11
+package: Custom

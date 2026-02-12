@@ -1,0 +1,20 @@
+uuid: 552ca570-e7d3-43fa-9578-47c6e8faf9a5
+langcode: en
+status: true
+dependencies:
+  module:
+    - users
+  theme:
+    - acquia
+id: acquia_userinfologgedin
+theme: acquia
+region: highlighted
+weight: 0
+provider: null
+plugin: users_user_info_block
+settings:
+  id: users_user_info_block
+  label: 'User info (logged-in)'
+  label_display: '0'
+  provider: users
+visibility: {  }

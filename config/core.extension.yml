@@ -18,6 +18,7 @@ module:
   dblog: 0
   devel: 0
   dynamic_page_cache: 0
+  ebf_lazy_user_greeting: 0
   editor: 0
   field: 0
   field_ui: 0
